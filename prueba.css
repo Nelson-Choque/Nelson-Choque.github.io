@@ -1,0 +1,88 @@
+*{
+
+    font-family: sans-serif;
+}
+
+html{
+
+    scroll-behavior: smooth ;
+}
+.portada{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('chifa2.0.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portada p{
+    color: #fff;
+    margin: 0x;
+    font-size: 28px;
+}
+.portada h2{
+    margin:0px;
+    color: #fff;
+    font-size: 120px;
+    border-bottom: 3px solid #fff;
+
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+header .menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkblue;
+
+
+}
+header .menu a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+}
+.main{
+    width: 70%;
+    margin:auto;
+}
+.main h2{
+    text-decoration: underline;
+}
+.main p{
+
+    line-height: 60px;
+}
+
+.main .galeria .titulo h2{
+    margin: 0px 0;
+    padding: 50px 0 50px 0;
+
+}
+
+.main .galeria .imagenes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main .galeria .imagenes img{
+    margin: 0 0 20px 0;
+    height: 200px;
+    border: 2px solid #000
+}
+
+footer{
+    background-color: plum;
+    overflow: hidden;
+}
+
+footer p{
+text-align: center;
+padding: 40px;
+font-size: 20px;
+}
