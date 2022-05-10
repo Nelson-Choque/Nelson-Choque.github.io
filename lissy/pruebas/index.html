@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRUEBAS</title>
+       
+    <link rel="stylesheet" href="prueba.css">
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">    
+
+    <script>
+        function run(){
+        var d = document.getElementById("draw");
+        var ctx = d.getContext("2d");
+        for(var u=0;u<800;u+=40){
+            var i=0;
+            while(i<=1690){
+
+                ctx.fillStyle="#fff5";
+                ctx.fillRect(i,u,10,10);
+                i+=20;
+
+
+        }
+    }
+        }
+    
+    
+    </script>
+</head>
+<body onload="run()">
+    <div class="container">
+    <canvas width="1700px" height="800px" id="draw"></canvas>
+    
+    </div>
+    <p>GAaaaaaaaaaaaaaaa</p>
+<style>
+    body{
+        background-color: aqua;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background:url('img_navidad.jpg');
+        height: 100vh;
+        overflow: hidden;
+    }
+    canvas{
+    display: block;
+    margin: 0;
+    position: relative;
+    /* border:2px solid #000; */
+    animation: hola 15s infinite normal ;}
+
+    @keyframes hola{
+        from{
+            top:-100%;left:0%;
+        }
+
+    
+        to{
+            top:90%;
+        }
+    }
+</style>
+</body>
+</html>
