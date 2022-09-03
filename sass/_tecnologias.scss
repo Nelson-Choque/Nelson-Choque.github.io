@@ -1,0 +1,45 @@
+@import 'variables';
+
+
+.tecnologias__container-item{
+
+    width: 100%;
+
+    margin-top: 2rem;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.tecnologias{
+
+    color: #fff;
+
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 1rem;
+
+        &__logo{
+            font-size: 4rem;
+
+        }
+        &__descripcion{
+            margin-top: 1rem;
+            align-self: center;
+            padding: .5rem 1rem;
+            background-color: $color-secundary;
+            font-size: 1rem;
+            border-radius: .5rem;
+
+        }
+    }
+
+}
+

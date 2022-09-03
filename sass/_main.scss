@@ -1,0 +1,65 @@
+
+@import 'variables';
+
+
+
+.container__inicio{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio{
+
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+    &__img{
+
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        border-radius: 50%;
+        border: 5px solid $color-secundary;
+        background-color: #fff;
+
+    }
+
+    &__title{
+        margin-top: 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    &__profesion{
+
+        margin-top: 1rem;
+        font-size: 1rem;
+        text-align: center;
+
+    }
+    
+    &__redes{
+        margin-top: 1rem;
+        text-align: center;
+
+        &__item{
+            margin-left: 1rem;
+            font-size: 2rem;
+        }
+    }
+
+    &__button{
+
+        font-size: 1rem;
+        align-self: center;
+        margin-top: 2rem;
+        padding: .5rem 1rem;
+        background-color: $color-secundary;
+        border: none;
+        color: #fff;
+        border-radius: 8px;
+
+    }
+}

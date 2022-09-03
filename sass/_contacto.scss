@@ -1,0 +1,57 @@
+@import 'variables';
+
+
+.contacto{
+
+    padding:.5rem;
+    &__descripcion{
+        margin-top: 2rem;
+    }
+
+    &__formulario{
+
+        display: flex;
+        flex-direction: column;
+
+        &__label{
+            margin-top: 2rem;
+        }
+
+        &__input{
+            margin-top: 1rem;
+            padding: 1rem 1rem;
+            border-radius: .5rem;
+            border: none;
+            background-color: transparent;
+
+            border: 1px solid #ffffff55;
+            color: #fff;
+
+        }
+
+        &__textarea{
+
+            margin-top: 1rem;
+            background-color: transparent;
+            padding: 1rem 1rem;
+            border-radius: .5rem;
+            border: 1px solid #ffffff55;
+            color: #fff;
+
+        }
+
+        &__button{
+
+            border: none;
+            margin: 1rem 0rem;
+            border-radius: .5rem;
+            padding: .5rem 1rem;
+
+            align-self: center;
+            background-color: $color-secundary;
+            color: #fff;
+            font-size: 1rem;
+        }
+    }
+
+}

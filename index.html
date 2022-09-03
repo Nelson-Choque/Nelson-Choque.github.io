@@ -4,193 +4,225 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nelson Choque</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
     <script src="https://kit.fontawesome.com/6134260e4d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <nav class="nav">
 
-
-    <nav>
-
-        
-        <div class="menu-mobile">
-            <div class="caja-prueba">
-                <i class="icon-menu fa-solid fa-bars"></i>
-            </div>
+        <div id="menu" class="menu">
+            <i class="menu__icon fa-solid fa-bars-staggered"></i>
         </div>
-
-        <ul class="menu">
-            <li><a class="link" href="#inicio"><div>Inicio</div></a></li>
-            <li><a class="link" href="#sobre-mi"><div>Sobre mí</div></a></li>
-            <li><a class="link" href="#habilidades"><div>Habilidades</div></a></li>
-            <li><a class="link" href="#knowledge"><div>Conocimientos</div></a></li>
-            <li><a class="link" href="#trabajemos-juntos"><div>Trabajemos juntos</div></a></li>
-
-
-        </ul>
 
     </nav>
 
-    <header id="inicio">
+    <div class="container-menu-mobile">
+
+        <div class="menu-mobile__salir">
+            <i class="menu-mobile__salir__icon fa-solid fa-circle-xmark"></i>
+        </div>
+
+        <ul class="menu-mobile">
+
+            <li> <a class="menu-mobile__item" href="#inicio">Inicio</a> </li>
+            <li> <a class="menu-mobile__item" href="#sobre-mi">Sobre mí</a> </li>
+            <li> <a class="menu-mobile__item" href="#tecnologias">Tecnologias</a> </li>
+            <li> <a class="menu-mobile__item" href="#proyectos">Proyectos</a> </li>
+            <li> <a class="menu-mobile__item" href="#contacto">Contacto</a> </li>
+
+
+
+        </ul>
+    </div>
+
+
+    <section id="inicio" class="main">
         
+        <div class="container__inicio">
+            <section class="inicio">
 
-        <div class="container-information">
+                <div class="inicio__img" ></div>
 
-            <h2>Nelson Choque</h2>
+                <h2 class="inicio__title">Nelson Choque</h2>
+                <p class="inicio__profesion">Desarrollador Front-end</p>
 
-            <p>Asesor de venta</p>
+                <div class="inicio__redes">
+                    <i class="inicio__redes__item fa-brands fa-facebook"></i>
+                    <i class="inicio__redes__item fa-brands fa-github"></i>
+                    <i class="inicio__redes__item fa-brands fa-linkedin"></i>
+                </div>
 
-            <div class="container-button">
-                
-                <button class="button" > <a href="/My_new_cv.pdf" target="_blank" style="text-decoration: none;"> Descargar CV</a></button>
-
-            </div>
-
-        </div>
-
-        <div class="container-image-perfil">
-
-            <div class="image-perfil">
-
-
-            </div>
-
-        </div>
-
-
-    </header>
-
-    <section class="main">
-
-
-        <section id="sobre-mi" class="about-me">
-
-            <h2 class="title">Sobre mi</h2>
-
-            <div class="container-information-about-me">
-
-            
-                <img class="image-vector" src="img/image-about-me.svg" alt="">
-
-                <section class="container-parrafos">
-                    <p class="parrafo">
-                        Soy <span class="resaltado">estudiante de computacion e informatica</span> en idat
-                    </p>
-
-                    <p class="parrafo">
-                        <span class="resaltado">Me gusta el "mundo" de las computadoras:</span> el hardware y software
-                    </p>
-
-                    <p class="parrafo">
-                        Dia a dia sigo aprendiendo para mejorar mis habilidades y asi poder ayudar a los demas con mis conocimientos
-                    </p>
-                </section>
-            </div>
-        </section>
-
-
-        <section id="habilidades" class="container-skills">
-
-            <h2 class="title">
-                Habilidades
-            </h2>
-
-            <img class="image-skill image-vector" src="img/image-skills.svg" alt="">
-
-            <section class="skills">
-
-                <p class="skills-item">Responsabilidad</p>
-                <p class="skills-item">Proactivo</p>
-                <p class="skills-item">Puntual</p>
-                <p class="skills-item">Trabajo en equipo</p>
-                <p class="skills-item">Empatico</p>
-                <p class="skills-item">Respeto</p>
-                
+                <button class="inicio__button">Descargar CV</button>
             </section>
 
-        </section>
 
-        <section id="knowledge" class="container-knowledge">
+        </div>
 
-            <h2 class="title">Conocimientos</h2>
+        <section id="sobre-mi" class="sobre-mi">
 
-            <div class="knowledge">
+            <h2 class="sobre-mi__title title">Sobre mí</h2>
+            <p class="sobre-mi__descripcion" >Me encanta la programacion desde pequeño quize ser front end developer a pesar de tener una pasion tambien por el desarrollo movil y rechinar el violin y jugar futbol</p>
 
-                <div class="card">
-                    
-                    <div class="card-image">
-
-                        <h2 class="title card-title">Hardware</h2>
-
-                    </div>
-
-                    <div class="card-information">
-
-                        <p>bla bla bla</p>
-                        <p>bla bla bla</p>
-                        <p>bla bla bla</p>
-
-                    </div>
-
-                </div>
-
-                <div class="card-maintanance card">
-                    
-                    <div class="card-image card-image-maintanance" alt="">
-
-                        <h2 class="title card-title">Mantenimiento de PC</h2>
-
-                    </div>
-
-                    <div class="card-information">
-
-                        <p>bla bla bla</p>
-                        <p>bla bla bla</p>
-                        <p>bla bla bla</p>
-
-                    </div>
-
-                </div>
-
-                <div class="card-customer-service card">
-                    
-                    <div class="card-image card-image-customer-service" alt="">
-
-                        <h2 class="title card-title">Atencion al Cliente</h2>
-
-                    </div>
-
-                    <div class="card-information">
-
-                        <p>bla bla bla</p>
-                        <p>bla bla bla</p>
-                        <p>bla bla bla</p>
-
-                    </div>
-
-                </div>
-
-            </div>
 
         </section>
 
+        <section id="tecnologias" class="tecnologias">
 
-        <section id="trabajemos-juntos" class="container-contact-me">
+            <h2 class="tecnologias__title title">Tecnologias</h2>
 
-            <h2 class="title">
-                trabajemos juntos
-            </h2>
+            <section class="tecnologias__container-item">
 
-            <img class="image-vector" src="img/image-message.svg" alt="">
+                <!-- github -->
+                <div class="tecnologias__item">
+                    <i class="tecnologias__item__logo fa-brands fa-github"></i>
 
-            <button class="contact-me-button button">Contactame<i class="fa-brands fa-whatsapp"></i></button>
+                    <p class="tecnologias__item__descripcion">Github</p>
+                </div>
 
+                <!-- html -->
+                <div class="tecnologias__item">
+                    <i class="tecnologias__item__logo fa-brands fa-html5"></i>
+                    <p class="tecnologias__item__descripcion">Html</p>
+                </div>
+
+                <!-- css -->
+                <div class="tecnologias__item">
+                    <i class="tecnologias__item__logo fa-brands fa-css3-alt"></i>
+                    <p class="tecnologias__item__descripcion">css</p>
+                </div>
+
+                <!-- sass -->
+                <div class="tecnologias__item">
+                    <i class="tecnologias__item__logo fa-brands fa-sass"></i>
+
+                    <p class="tecnologias__item__descripcion">Sass</p>
+                </div>
+
+                <!-- javascript -->
+                <div class="tecnologias__item">
+                    <i class="tecnologias__item__logo fa-brands fa-square-js"></i>
+
+                    <p class="tecnologias__item__descripcion">Javascript</p>
+                </div>
+
+                <!-- nodejs -->
+                <div class="tecnologias__item">
+                    <i class="tecnologias__item__logo fa-brands fa-node"></i>
+
+                    <p class="tecnologias__item__descripcion">Node js</p>
+                </div>
+
+            </section>
+
+            <section id="proyectos" class="proyectos">
+                
+                <h2 class="proyectos__title title">Proyectos</h2>
+
+                <div class="proyectos__container-item">
+
+                    <section class="proyectos__item">
+                        <div class="proyectos__item__img"></div>
+                        <h3 class="proyectos__item__title">Trabajo 1</h3>
+                        <p class="proyectos__item__descripcion">Lorem ipsum</p>
+
+                        <div class="proyectos__item__tecnologias">
+
+                            <p class="proyectos__item__tecnologias__item">Html</p>
+                            <p class="proyectos__item__tecnologias__item">Css</p>
+                            <p class="proyectos__item__tecnologias__item">Javascript</p>
+
+                        </div>
+
+                    </section>
+
+                    <!-- 2 -->
+                    <section class="proyectos__item">
+                        <div class="proyectos__item__img"></div>
+                        <h3 class="proyectos__item__title">Trabajo 1</h3>
+                        <p class="proyectos__item__descripcion">Lorem ipsum</p>
+
+                        <div class="proyectos__item__tecnologias">
+
+                            <p class="proyectos__item__tecnologias__item">Html</p>
+                            <p class="proyectos__item__tecnologias__item">Css</p>
+                            <p class="proyectos__item__tecnologias__item">Javascript</p>
+
+                        </div>
+
+                    </section>
+                    
+                    <!-- 3 -->
+
+                    <section class="proyectos__item">
+                        <div class="proyectos__item__img"></div>
+                        <h3 class="proyectos__item__title">Trabajo 1</h3>
+                        <p class="proyectos__item__descripcion">Lorem ipsum</p>
+
+                        <div class="proyectos__item__tecnologias">
+
+                            <p class="proyectos__item__tecnologias__item">Html</p>
+                            <p class="proyectos__item__tecnologias__item">Css</p>
+                            <p class="proyectos__item__tecnologias__item">Javascript</p>
+
+                        </div>
+
+                    </section>
+
+                    <!-- 4 -->
+
+                    <section class="proyectos__item">
+                        <div class="proyectos__item__img"></div>
+                        <h3 class="proyectos__item__title">Trabajo 1</h3>
+                        <p class="proyectos__item__descripcion">Lorem ipsum</p>
+
+                        <div class="proyectos__item__tecnologias">
+
+                            <p class="proyectos__item__tecnologias__item">Html</p>
+                            <p class="proyectos__item__tecnologias__item">Css</p>
+                            <p class="proyectos__item__tecnologias__item">sass</p>
+                            <p class="proyectos__item__tecnologias__item">Javascript</p>
+                            <p class="proyectos__item__tecnologias__item">Node js</p>
+                            <p class="proyectos__item__tecnologias__item">React</p>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+            <section id="contacto" class="contacto">
+
+                <h2 class="contacto__title title">Contacto</h2>
+                <p class="contacto__descripcion">Trabajemos juntos y hagamos realidad ese proyecto que tienes en mente.</p>
+
+                <form class="contacto__formulario" action="">
+
+                    <label class="contacto__formulario__label" for="">Nombre</label>
+
+                    <input class="contacto__formulario__input" type="text" placeholder="Escribe tu Nombre">
+
+                    <label class="contacto__formulario__label" for="">Correo</label>
+
+                    <input class="contacto__formulario__input" type="email" placeholder="Escribe tu Correo">
+
+                    <label class="contacto__formulario__label" for="">Mensaje</label>
+
+                    <textarea class="contacto__formulario__textarea"  placeholder="Escribe tu Mensaje" name="" id="" cols="30" rows="10"></textarea>
+    
+                    <input class="contacto__formulario__button" type="submit" value="Enviar">
+                </form>
+            </section>
         </section>
+
+
 
     </section>
 
-    <script src="index.js"></script>
+
+    <script src="static/app.js"></script>
 </body>
 </html>
