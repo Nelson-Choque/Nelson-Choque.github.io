@@ -4,15 +4,18 @@
 .sobre-mi{
 
     color: #fff;
-    text-align: center;
-    padding: 8px;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+    font-size: 1rem;
 
+    line-height: 1.5em;
 
     &__descripcion{
 
         margin-top: 2rem;
         background-color: #ffffff11;
-        padding: .5rem;
+        padding: 1rem;
         border-radius: 8px;
 
     }

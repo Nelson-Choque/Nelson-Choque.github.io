@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nelson Choque</title>
     <link rel="stylesheet" href="css/index.css">
     <script src="https://kit.fontawesome.com/6134260e4d.js" crossorigin="anonymous"></script>
 </head>
@@ -43,10 +43,12 @@
         <div class="container__inicio">
             <section class="inicio">
 
-                <div class="inicio__img" ></div>
+                <div class="inicio__img" >
+                    <img class="inicio__img__item" src="images/nelson.jpg" alt="">
+                </div>
 
                 <h2 class="inicio__title">Nelson Choque</h2>
-                <p class="inicio__profesion">Desarrollador Front-end</p>
+                <p class="inicio__profesion">Desarrollador Web</p>
 
                 <div class="inicio__redes">
                     <i class="inicio__redes__item fa-brands fa-facebook"></i>
@@ -54,7 +56,7 @@
                     <i class="inicio__redes__item fa-brands fa-linkedin"></i>
                 </div>
 
-                <button class="inicio__button">Descargar CV</button>
+                <a href="/public/cv-choque-nelson.pdf" target="_blank" class="inicio__button">Descargar CV</a>
             </section>
 
 
@@ -63,7 +65,7 @@
         <section id="sobre-mi" class="sobre-mi">
 
             <h2 class="sobre-mi__title title">Sobre mí</h2>
-            <p class="sobre-mi__descripcion" >Me encanta la programacion desde pequeño quize ser front end developer a pesar de tener una pasion tambien por el desarrollo movil y rechinar el violin y jugar futbol</p>
+            <p class="sobre-mi__descripcion" >soy desarrollador web con experiencia en diseño y programacion. Además de ser una persona proactiva, dispuesto a seguir aprendiendo en busqueda de una empresa en la cual seguir desarrollandome y crecer juntos.</p>
 
 
         </section>
@@ -76,44 +78,53 @@
 
                 <!-- github -->
                 <div class="tecnologias__item">
-                    <i class="tecnologias__item__logo fa-brands fa-github"></i>
+                    <i class="tecnologias__item__logo tecnologias__item__logo__github fa-brands fa-github"></i>
 
                     <p class="tecnologias__item__descripcion">Github</p>
                 </div>
 
                 <!-- html -->
                 <div class="tecnologias__item">
-                    <i class="tecnologias__item__logo fa-brands fa-html5"></i>
+                    <i class="tecnologias__item__logo tecnologias__item__logo__html fa-brands fa-html5"></i>
                     <p class="tecnologias__item__descripcion">Html</p>
                 </div>
 
                 <!-- css -->
                 <div class="tecnologias__item">
-                    <i class="tecnologias__item__logo fa-brands fa-css3-alt"></i>
+                    <i class="tecnologias__item__logo tecnologias__item__logo__css fa-brands fa-css3-alt"></i>
                     <p class="tecnologias__item__descripcion">css</p>
                 </div>
 
                 <!-- sass -->
                 <div class="tecnologias__item">
-                    <i class="tecnologias__item__logo fa-brands fa-sass"></i>
+                    <i class="tecnologias__item__logo tecnologias__item__logo__sass fa-brands fa-sass"></i>
 
                     <p class="tecnologias__item__descripcion">Sass</p>
                 </div>
 
                 <!-- javascript -->
                 <div class="tecnologias__item">
-                    <i class="tecnologias__item__logo fa-brands fa-square-js"></i>
+                    <i class="tecnologias__item__logo fa-brands tecnologias__item__logo__js fa-square-js"></i>
 
                     <p class="tecnologias__item__descripcion">Javascript</p>
                 </div>
 
                 <!-- nodejs -->
                 <div class="tecnologias__item">
-                    <i class="tecnologias__item__logo fa-brands fa-node"></i>
+                    <i class="tecnologias__item__logo fa-brands tecnologias__item__logo__node fa-node"></i>
 
                     <p class="tecnologias__item__descripcion">Node js</p>
                 </div>
 
+                <div class="tecnologias__item">
+                    <i class="tecnologias__item__logo fa-brands tecnologias__item__logo__react fa-react"></i>
+                    <p class="tecnologias__item__descripcion">React</p>
+                </div>
+
+                <div class="tecnologias__item">
+                    <i class="tecnologias__item__logo fa-brands tecnologias__item__logo__php fa-php"></i>
+                    <p class="tecnologias__item__descripcion">Php</p>
+                </div>
             </section>
 
             <section id="proyectos" class="proyectos">
@@ -122,15 +133,43 @@
 
                 <div class="proyectos__container-item">
 
+
                     <section class="proyectos__item">
-                        <div class="proyectos__item__img"></div>
-                        <h3 class="proyectos__item__title">Trabajo 1</h3>
-                        <p class="proyectos__item__descripcion">Lorem ipsum</p>
+                        <a href="https://cianse.net" target="_blank" class="proyectos__item__img">
+                            <img class="proyectos__item__img__item" src="images/cianse.PNG" alt="">
+                        </a>
+                        <h3 class="proyectos__item__title">Cianse</h3>
+                        <p class="proyectos__item__descripcion">Responsive design, Corrección de bugs, adición de la sección servicios</p>
 
                         <div class="proyectos__item__tecnologias">
 
                             <p class="proyectos__item__tecnologias__item">Html</p>
                             <p class="proyectos__item__tecnologias__item">Css</p>
+                            <p class="proyectos__item__tecnologias__item">Sass</p>
+                            <p class="proyectos__item__tecnologias__item">Javascript</p>
+                            <p class="proyectos__item__tecnologias__item">Php</p>
+
+                        </div>
+
+                    </section>
+
+
+
+
+
+
+                    <section class="proyectos__item">
+                        <a href="https://greenpackingperu.com" target="_blank" class="proyectos__item__img">
+                            <img class="proyectos__item__img__item" src="images/greenpacking.PNG" alt="">
+                        </a>
+                        <h3 class="proyectos__item__title">Greenpacking</h3>
+                        <p class="proyectos__item__descripcion">Creacion de la pagina web y optimizacion de SEO.</p>
+
+                        <div class="proyectos__item__tecnologias">
+
+                            <p class="proyectos__item__tecnologias__item">Html</p>
+                            <p class="proyectos__item__tecnologias__item">Css</p>
+                            <p class="proyectos__item__tecnologias__item">Sass</p>
                             <p class="proyectos__item__tecnologias__item">Javascript</p>
 
                         </div>
@@ -138,57 +177,10 @@
                     </section>
 
                     <!-- 2 -->
-                    <section class="proyectos__item">
-                        <div class="proyectos__item__img"></div>
-                        <h3 class="proyectos__item__title">Trabajo 1</h3>
-                        <p class="proyectos__item__descripcion">Lorem ipsum</p>
 
-                        <div class="proyectos__item__tecnologias">
-
-                            <p class="proyectos__item__tecnologias__item">Html</p>
-                            <p class="proyectos__item__tecnologias__item">Css</p>
-                            <p class="proyectos__item__tecnologias__item">Javascript</p>
-
-                        </div>
-
-                    </section>
                     
-                    <!-- 3 -->
-
-                    <section class="proyectos__item">
-                        <div class="proyectos__item__img"></div>
-                        <h3 class="proyectos__item__title">Trabajo 1</h3>
-                        <p class="proyectos__item__descripcion">Lorem ipsum</p>
-
-                        <div class="proyectos__item__tecnologias">
-
-                            <p class="proyectos__item__tecnologias__item">Html</p>
-                            <p class="proyectos__item__tecnologias__item">Css</p>
-                            <p class="proyectos__item__tecnologias__item">Javascript</p>
-
-                        </div>
-
-                    </section>
-
-                    <!-- 4 -->
-
-                    <section class="proyectos__item">
-                        <div class="proyectos__item__img"></div>
-                        <h3 class="proyectos__item__title">Trabajo 1</h3>
-                        <p class="proyectos__item__descripcion">Lorem ipsum</p>
-
-                        <div class="proyectos__item__tecnologias">
-
-                            <p class="proyectos__item__tecnologias__item">Html</p>
-                            <p class="proyectos__item__tecnologias__item">Css</p>
-                            <p class="proyectos__item__tecnologias__item">sass</p>
-                            <p class="proyectos__item__tecnologias__item">Javascript</p>
-                            <p class="proyectos__item__tecnologias__item">Node js</p>
-                            <p class="proyectos__item__tecnologias__item">React</p>
-
-                        </div>
-
-                    </section>
+                    
+                    
 
                 </div>
 

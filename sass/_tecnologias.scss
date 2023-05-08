@@ -29,6 +29,84 @@
         &__logo{
             font-size: 4rem;
 
+            z-index: 50;
+
+            &::before{
+
+                content: '';
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 80%;
+                height: 80%;
+
+                border-radius: 100%;
+
+                background-color: #fff;
+                
+            }
+
+            &__github{
+                color: #000;
+
+                
+            }
+
+            &__html{
+                color: #f33737;
+
+ 
+            }
+
+            &__css{
+                color: #1a74e1;
+                
+            }
+
+            &__sass{
+                color: #d0a4a4;
+                &::before{
+                    background-color: transparent;
+                    width: 100%;
+
+                }
+            }
+
+            &__js{
+                color: #c5ec07;
+
+                &::before{
+                    width: 90%;
+                    height: 80%;
+                    border-radius: 0;
+                    background-color: #000;
+                }
+            }
+
+            &__node{
+                color: #26967f;
+
+                &::before{
+   
+                    background-color: transparent;
+                }
+            }
+            &__react{
+                color: #6cc6f6;
+
+                &::before{
+   
+                    background-color: transparent;
+                }
+            }
+            &__php{
+                color: #6D7DB9;
+
+                &::before{
+   
+                    background-color: transparent;
+                }
+            }
         }
         &__descripcion{
             margin-top: 1rem;

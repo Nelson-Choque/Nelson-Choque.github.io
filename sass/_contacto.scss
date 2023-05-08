@@ -2,10 +2,13 @@
 
 
 .contacto{
+    max-width: 1200px;
+    margin: auto;
 
     padding:.5rem;
     &__descripcion{
         margin-top: 2rem;
+        text-align: center;
     }
 
     &__formulario{
