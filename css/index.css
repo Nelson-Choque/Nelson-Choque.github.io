@@ -41,6 +41,7 @@
   transform: translateX(-100%);
   transition: 0.3s all ease;
   overflow-y: auto;
+  z-index: 100;
 }
 
 .container-menu-mobile--active {
